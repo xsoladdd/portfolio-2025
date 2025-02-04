@@ -8,7 +8,7 @@ const Hero: React.FC = () => {
     <PageWrapper name="home" bgSrc={bg.src}>
       <Nav />
       <div className="flex container mx-auto ">
-        <div className=" pt-24 md:pt-96 text-center md:text-left w-full px-4 md:px-0">
+        <div className=" pt-[20vh] md:pt-96 text-center md:text-left w-full px-4 md:px-0">
           <p className="text-2xl md:text-4xl">Hello, I am</p>
           <p className="text-3xl md:text-7xl text-primary font-semibold">
             Ericson Funtanar

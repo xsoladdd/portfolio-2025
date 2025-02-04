@@ -12,7 +12,7 @@ const Nav: React.FC = () => {
   return (
     <nav className="flex justify-between container mx-auto pt-8 px-4 md:px-0">
       <img src={logoSvg.src} alt="" className="max-h-[20px]  md:max-h-[35px]" />
-      <ul className="hidden md:flex place-items-center">
+      <ul className="hidden md:flex place-items-center ">
         {routes.map((route) => (
           <li key={route} className="mx-3  capitalize text-lg cursor-pointer">
             <Link

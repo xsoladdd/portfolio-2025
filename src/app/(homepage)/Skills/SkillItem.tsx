@@ -20,7 +20,7 @@ const SkillItem: React.FC<ISkillItemProps> = ({
         </div>
         <div className="flex flex-col place-content-center pl-2 text-center gap-2">
           <p className="text-primary text-3xl  ">{title}</p>
-          <p className="text-lightGrey text-lg font-extralight leading-tight px-8  w-full">
+          <p className="text-lightGrey text-lg font-extralight leading-snug px-8  w-full">
             {subTitle}
           </p>
         </div>

@@ -16,7 +16,7 @@ const Title: React.FC<ITitleProps> = ({ children, className, sub }) => {
         {children}
       </h1>
       {sub && (
-        <p className="text-center w-full text-lightGrey font-extralight italic">
+        <p className="text-center w-full text-lightGrey font-extralight italic pt-1">
           "{sub}"
         </p>
       )}

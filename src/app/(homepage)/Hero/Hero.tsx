@@ -17,10 +17,10 @@ const Hero: React.FC = () => {
             A Software Engineer based on philippines
           </p>
           <div className="flex gap-6 flex-col max-w-[300px] md:flex-row  mx-auto md:mx-0 md:max-w-[500px]">
-            <button className="bg-primary text-black px-12 py-4 text-xl rounded-xl border border-transparent">
+            <button className="bg-primary text-black px-8 py-3 text-xl rounded-xl border border-transparent">
               Get in touch
             </button>
-            <button className="  text-primary px-12 py-4 text-xl rounded-xl border border-primary">
+            <button className="  text-primary px-8 py-3 text-xl rounded-xl border border-primary">
               Curicculum vitae
             </button>
           </div>

@@ -13,7 +13,8 @@ const Skills: React.FC = () => {
       <Title className="pt-24" sub=" Here are some skills, but not limited to.">
         Skills
       </Title>
-      <div className=" pt-8 grid grid-cols-3 gap-x-8 gap-y-8">
+      {/* Test */}
+      <div className=" pt-12 grid grid-cols-3 gap-x-8 gap-y-8">
         {skills.map((skill, index) => (
           <SkillItem
             key={index}

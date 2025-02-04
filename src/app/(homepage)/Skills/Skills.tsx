@@ -14,7 +14,7 @@ const Skills: React.FC = () => {
         Skills
       </Title>
       {/* Test */}
-      <div className=" pt-12 grid grid-cols-3 gap-x-8 gap-y-8">
+      <div className=" px-4 pt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-8">
         {skills.map((skill, index) => (
           <SkillItem
             key={index}

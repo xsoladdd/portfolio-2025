@@ -18,9 +18,9 @@ const page: React.FC = () => {
       <Services />
       <Projects />
 
-      <Element name="author" className="min-h-screen">
+      {/* <Element name="author" className="min-h-screen">
         test 5
-      </Element>
+      </Element> */}
       <Contact />
       <Footer />
       <ScrollToTopButton />

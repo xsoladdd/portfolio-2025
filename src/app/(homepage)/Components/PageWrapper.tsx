@@ -28,8 +28,12 @@ const PageWrapper: React.FC<IPageWrapperProps> = ({
           {children}
         </div>
         {bgSrc && (
-          <div className="absolute inset-0 -z-10">
-            <img src={bgSrc} alt="" className="w-full h-full object-cover" />
+          <div className="absolute inset-0 -z-10 ">
+            <img
+              src={bgSrc}
+              alt=""
+              className="w-full h-full object-cover animate-in fade-in slide-in-from-top-10 duration-700 "
+            />
           </div>
         )}
       </Element>

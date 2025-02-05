@@ -12,17 +12,7 @@ const Projects: React.FC = () => {
       >
         Projects
       </Title>
-      <div className=" px-5 py-24 mx-auto -m-4 grid grid-cols-1 lg:grid-cols-3">
-        {/* {services.map((service, index) => (
-      <SerivceItem
-        key={index}
-        desc={service.desc}
-        title={service.title}
-        image={service.image?.src}
-        // icon={ || ""}
-      />
-    ))} */}
-      </div>
+      <div className=" px-5 py-24 mx-auto -m-4 grid grid-cols-1 lg:grid-cols-3"></div>
     </PageWrapper>
   );
 };

@@ -14,7 +14,7 @@ const SerivceItem2: React.FC<serviceProps> = ({ title, desc, image }) => {
             <h1 className=" text-3xl font-medium text-primary mb-3 text-center">
               {title}
             </h1>
-            <p className="leading-snug mb-3 text-center text-lg text-lightGrey font-extralight">
+            <p className="leading-snug mb-3 text-center text-lg text-lightGrey font-extralight px-6">
               {desc}
             </p>
           </div>

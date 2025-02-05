@@ -7,6 +7,7 @@ interface IPageWrapperProps {
   bgSrc?: string;
   name?: string;
   className?: string;
+  elementClassName?: string;
 }
 
 const PageWrapper: React.FC<IPageWrapperProps> = ({
@@ -14,10 +15,15 @@ const PageWrapper: React.FC<IPageWrapperProps> = ({
   bgSrc,
   name,
   className,
+  elementClassName,
 }) => {
   return (
     <>
-      <Element name={name || ""} id={name} className="min-h-screen relative">
+      <Element
+        name={name || ""}
+        id={name}
+        className={joinClass("min-h-screen relative", elementClassName)}
+      >
         <div className={joinClass(`container mx-auto`, className)}>
           {children}
         </div>

@@ -130,12 +130,6 @@ body {
   @apply bg-background;
 }
 
-h1,
-h2,
-h3,
-h4,
-p,
-button,
-span {
+.animateIn {
   @apply animate-in fade-in duration-1000 slide-in-from-bottom-10;
 }

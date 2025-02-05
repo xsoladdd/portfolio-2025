@@ -14,7 +14,7 @@ const Contact: React.FC = () => {
       elementClassName="!min-h-[85vh]"
     >
       <Title>Get in touch</Title>
-      <section className="text-gray-600 body-font relative   mt-24  mx-2 min-h-[60vh] animate-in slide-in-from-top">
+      <section className="text-gray-600 body-font relative mt-24  mx-2 min-h-[60vh]">
         <iframe
           className="absolute inset-0 filter grayscale contrast-75 rounded-lg "
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22247.907001821106!2d120.95965757786952!3d14.423781869525529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397d21386171d05%3A0xf7d5f7f358ed6d9d!2sBacoor%20City%20Hall!5e0!3m2!1sen!2sph!4v1738735105099!5m2!1sen!2sph"
@@ -23,21 +23,21 @@ const Contact: React.FC = () => {
           loading="lazy"
         ></iframe>
         <div className="container px-5 py-24 mx-auto flex">
-          <div className="lg:w-1/3 md:w-1/2 bg-darkGrey rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md">
+          <div className="lg:w-1/3 md:w-1/2 bg-darkGrey rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md animateIn">
             <div className="text-center lg:text-left  ">
               <h2 className="text-primary text-center text-3xl mb-4 font-medium title-font ">
-                {`Let's get in touch!`}
+                {`Get a quote!`}
               </h2>
-              <p className="leading-relaxed text-lightGrey text-center font-extralight">
+              <p className="leading-relaxed text-lightGrey text-center font-extralight ">
                 You can contact me by following the links below
                 <a
-                  className="text-blue-500 leading-relaxed block font-normal"
+                  className="text-blue-500 leading-relaxed block font-normal "
                   href="mailto: eofuntanar@email.com"
                 >
                   eofuntanar@email.com
                 </a>
                 <a
-                  className="text-blue-500 leading-relaxed block font-normal"
+                  className="text-blue-500 leading-relaxed block font-normal "
                   href="sms:+639776281917"
                 >
                   +63 977 628 1917

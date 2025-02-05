@@ -11,12 +11,15 @@ const Title: React.FC<ITitleProps> = ({ children, className, sub }) => {
   return (
     <>
       <h1
-        className={joinClass(`text-center  text-primary text-5xl `, className)}
+        className={joinClass(
+          `text-center  text-primary text-5xl animateIn`,
+          className
+        )}
       >
         {children}
       </h1>
       {sub && (
-        <p className="text-center w-full text-lightGrey font-extralight italic pt-1">
+        <p className="text-center w-full text-lightGrey font-extralight italic pt-1 animateIn">
           "{sub}"
         </p>
       )}

@@ -5,7 +5,7 @@ import { serviceProps } from "./res";
 const SerivceItem2: React.FC<serviceProps> = ({ title, desc, image }) => {
   return (
     <>
-      <div className="p-4    ">
+      <div className="p-4  animateIn  ">
         <div className="h-full border-2 border-lightGrey border-opacity-60 rounded-lg overflow-hidden bg-darkGrey/50 ">
           <div className="w-full m-auto p-3 flex align-middle justify-center  scale-85  py-12 min-h-[280px]  ">
             <Image src={image} width={200} height={200} alt={title} />

@@ -14,7 +14,7 @@ const SkillItem: React.FC<ISkillItemProps> = ({
 }) => {
   return (
     <>
-      <div className="flex flex-col place-items-center gap-4 pt-6  pb-8 py-4  bg-darkGrey rounded-3xl ">
+      <div className="flex flex-col place-items-center gap-4 pt-6  pb-8 py-4  bg-darkGrey rounded-3xl animateIn">
         <div className=" bg-primary/50 rounded-full p-4 max-h-[80px] max-w-[80px] flex place-content-center place-items-center ">
           <Icon className="h-[80px] w-[80px] text-gray-white" />
         </div>
